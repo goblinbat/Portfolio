@@ -120,6 +120,11 @@ h3, h2, h1 {
     padding: 10px;
 }
 
+#Resume:hover {
+    color: var(--accent-color);
+    background-color: var(--darker-main-color);
+}
+
 .my_icons {
     text-align: center;
     font-size: 55px;
