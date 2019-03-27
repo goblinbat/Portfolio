@@ -1,0 +1,254 @@
+
+:root {
+    /* --main-color: #ecf8f8;
+    --dark-main-color: #eee4e1;
+    --darker-main-color: #e7d8c9;
+    --accent-color: #cea392;
+    --accent-dark-color: #aa8e75; */
+
+    --main-color: #faf8d4;
+    --dark-main-color: #ebdccb;
+    --darker-main-color: #c3baaa;
+    --accent-color: #b2a3b5;
+    --accent-dark-color: #91818a;
+}
+
+body {
+    background-color: var(--main-color);
+    background-image: url(images/dimension.png);
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    background-color: var(--dark-main-color);
+    background-image: url(images/dimension.png);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    text-align: right;
+}
+
+.my_navbar {
+    width: 100%;
+    position: sticky;
+    min-height: 60px;
+}
+
+nav ul li {
+    float: right !important;
+    margin-top: 10px;
+    margin-right: 10px;
+    list-style-type: none;
+    
+}
+
+h3, h2, h1 {
+    text-align: center;
+}
+
+#brand {
+    float: left !important;
+    font-size: 35px;
+}
+
+.navabr-toggler {
+    width: 20px !important;
+}
+
+.nav-item {
+    float: right;
+}
+
+.nav-link {
+    color: var(--accent-color);
+    font-size: 25px;
+}
+
+.nav-link:hover {
+    color: var(--accent-dark-color);
+}
+
+.header {
+    margin-top: 20px !important;
+}
+
+.about {
+    text-align: left;
+    /* display: flex; */
+}
+
+#about {
+    text-align: left;
+}
+
+#profilePicture {
+    background-image: url(images/littleme.png);
+    height: 300px !important;
+    width: 300px !important;
+    border-radius: 300px;
+    background-size: 400px;
+    float: left;
+    margin-right: 15px;
+}
+
+.info {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.info h2 p {
+    margin-left: 10px;
+    text-align: left;
+}
+
+.about a {
+    text-align: center !important;
+}
+
+.resume {
+    text-align: center;
+}
+
+#Resume {
+    font-size: 30px;
+    color: var(--accent-dark-color) !important;
+    background-color: var(--dark-main-color);
+    text-align: center !important;
+    border-radius: 50px !important;
+    border-color: var(--dark-main-color);
+    padding: 10px;
+}
+
+.my_icons {
+    text-align: center;
+    font-size: 55px;
+}
+
+.smallicon {
+    font-size: 56px !important;
+}
+
+.xsmallicon {
+    font-size: 65px !important;
+}
+
+.project-list {
+    list-style-type: none;
+}
+
+.project-list-item {
+    display: flex;
+    min-height: 200px;
+}
+
+.imgbox {
+    width: 200px;
+    height: 100%;
+    border-radius: 80px 0 0 80px;
+}
+
+.project-desc {
+    flex: 1;
+    padding: 10px;
+    padding-right: 18px;
+    background-color: var(--dark-main-color);
+    background-image: url('images/dimension.png');
+    border-radius: 0 80px 80px 0;
+}
+
+.project-list-item:hover{
+    box-shadow: 0px 0px 0px 5px var(--accent-color);
+    border-radius: 80px 80px 80px 80px;
+}
+
+.project-title-link {
+    color: var(--accent-color);
+}
+
+.project-title-link:hover {
+    color: var(--accent-dark-color);
+}
+
+#creature {
+    background: url('./images/html_css_creature.PNG');
+    background-size: 250px 200px;
+}
+
+#madlibs {
+    background: url('./images/madlib_code.PNG');
+    background-size: 250px 200px;
+}
+
+#goldchallenges {
+    background: url('./images/challenge_code.PNG');
+    background-size: 250px 200px;
+}
+
+#Recipes {
+    background: url('./images/recipes_home_shot.png');
+    background-size: 250px 200px;
+}
+
+.container_contact {
+    text-align: center;
+}
+
+.fab, .fas {
+    color: rgb(39, 39, 39);
+    font-size: 40px;
+    text-align: center;
+}
+
+.envelope {
+    background-color: var(--main-color);
+    background-image: url(images/dimension.png);
+    border: none;
+}
+
+.envelope:hover {
+    background-color: var(--dark-main-color);
+}
+
+.sendbtn {
+    background-color:  var(--accent-color);
+    border: none;
+}
+
+.sendbtn:hover {
+    background-color: var(--accent-dark-color);
+}
+
+.closebtn {
+    background-color: rgb(167, 175, 175);
+    border: none;
+}
+
+.closebtn:hover {
+    background-color: rgb(155, 165, 165);
+}
+
+.row{
+    padding-right: 0px !important;
+    margin-right: 0px !important;
+}
+
+#contact-right-col {
+    padding-right: 0px !important;
+    margin-right: 0px;
+}
+
+#emailmodal {
+    background-color: var(--main-color) !important;
+    background-image: url(images/dimension.png);
+}
+
+.footer {
+    background-color: var(--dark-main-color);
+    background-image: url('images/dimension.png');
+    text-align: center;
+}
+
+.footer p {
+    margin-top: 15px;
+}

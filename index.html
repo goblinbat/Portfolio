@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Molly Hopper</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="my_navbar navbar navbar-expand-md">
+        <a href="#" class="navbar-brand nav-link" id="brand">Molly Hopper</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navLinks" aria-controls="navLinks" aria-expanded="false" aria-label="Toggle Navigation"> <i class="fas fa-ellipsis-h"></i>
+        </button>
+        <div class= "collapse navbar-collapse" id='navLinks'>
+            <ul class="nav-list ml-auto" name="navLinks">
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HEADER -->
+    <section class="container header">
+        <h1>Molly Ann Hopper</h1>
+    </section>
+    <br>
+
+    <!-- ABOUT -->
+    <section class="container about">
+        <div id="profilePicture" alt="A photo of Molly"></div>
+        <div class="info">
+            <br>
+            <h2 id="about"><a name="about">About Me</a></h2>
+            <br>
+            <p>I'm 23 years old. I graduated with honors from Indiana State University in May 2018 with a bachelor's degree in Biology. While trying to figure 
+                out what to do next, I decided to look into learning to code, which I quickly discovered I enjoyed. 
+                Currently, I'm a student at elevenfifty academy in Fishers, IN, where I'm learning Python, Django, HTML, and CSS. I'm also proficient
+                with using microsoft office, github, and the Windows terminal.<br>
+                In addition to coding, I enjoy playing video games, reading, writing stories, and drawing.<br>
+                I'm now looking for a career in which I can be challenged, continue to learn, and put my creativity to good use.
+            </p>
+            <br><br>
+        </div>
+    </section>
+    <div class="resume">
+        <a href="https://docs.google.com/document/d/12uVbQKbrs_kVYx7gcMsZrkjXv0fseC6sHGZykO7lLi8/edit?usp=sharing" target="blank" class="btn" id="Resume">My Resume</a>
+    </div>
+    <br><br>
+
+    <section class="my_icons">
+        <h2>I am proficient with:</h2>
+        <a name="projects"></a>
+        <i class="devicon-bootstrap-plain" title="Bootstrap"></i>
+        <i class="devicon-css3-plain" title="CSS3"></i>
+        <i class="devicon-html5-plain" title="HTML5"></i>
+        <i class="devicon-python-plain" title="Python"></i>
+        <i class="devicon-django-plain xsmallicon" title="Django"></i>
+        <i class="fas fa-terminal smallicon" title="Terminal"></i>
+        <i class="devicon-git-plain" title="git"></i>
+        <i class="devicon-github-plain" title="GitHub"></i>
+        <i class="devicon-visualstudio-plain" title="Visual Studio Code"></i>
+        <!-- <i class="devicon-windows8-original" title="Windows"></i> -->
+        <i class="fas fa-file-word smallicon" title="Microsoft Word"></i>
+        <i class="fas fa-file-powerpoint smallicon" title="Microsoft Powerpoint"></i>
+        <i class="fas fa-file-excel smallicon" title="Microsoft Excel"></i>
+    </section>
+    <br><br><br>
+
+    <!-- PROJECTS -->
+    <section class="container projects">
+        <h2><a name="">Projects</a></h2>
+        <br>
+        <ul class="project-list">
+            <li class="project-list-item">
+                <a href="https://codepen.io/Goblinbat/pen/XOaKzW" target="blank"><div class="imgbox bigimgbox" id="creature"></div></a>
+                <div class="project-desc">
+                    <h4><a href="https://codepen.io/Goblinbat/pen/XOaKzW" target="blank" class="project-title-link">HTML/CSS Creature</a></h4>
+                    <p>A simple creature created using HTML and CSS styling. My first coding project.</p>
+                </div>
+            </li>
+            <br>
+            <li class="project-list-item">
+                <a href="https://github.com/goblinbat/madlibs" target="blank"><div class="imgbox" id="madlibs"></div></a>
+                <div class="project-desc">
+                    <h4><a href="https://github.com/goblinbat/madlibs" target="blank" class="project-title-link">Madlibs</a></h4>
+                    <p>A simple interface in which a user can fill-in, save, and read madlibs. My first solo project in Python.</p>
+                </div>
+            </li>
+            <br>
+            <li class="project-list-item">
+                <a href="https://github.com/goblinbat/Gold_challenges" target="blank"><div class="imgbox bigimgbox" id="goldchallenges"></div></a>
+                <div class="project-desc">
+                    <h4><a href="https://github.com/goblinbat/Gold_challenges" target="blank" class="project-title-link">Gold-Badge Challenges</a></h4>
+                    <p>A series of six challenges completed as part of elevenfifty's curriculum. <br>
+                        Each has a simple user interface that allows the user to complete tasks such as creating 
+                        objects, viewing lists of objects, updating lists, and deleting objects from lists.</p>
+                </div>
+            </li>
+            <br>
+            <li class="project-list-item">
+                <a href="http://198.199.85.6/" target="blank"><div class="imgbox bigimgbox" id="Recipes"></div></a>
+                <div class="project-desc">
+                    <h4><a href="http://198.199.85.6/" target="blank" class="project-title-link">Recipe App</a></h4>
+                    <p> My first website: a site where users can create, share, and view others' recipes. Utilizes Django and is mobile responsive.
+                        It taught me a lot about using Django and designing and creating websites.
+                    </p>
+                </div>
+            </li>
+        <a name="contact"></a>
+        </ul>
+        <br>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="container_contact row">
+        <div class="col-4"></div>
+        <div class="col-4">
+            <h2><a name="">Contact Me</a></h2>
+            <br>
+            <h4>Email me:</h4>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary envelope" data-toggle="modal" data-target="#exampleModal">
+                <i class="fas fa-envelope"></i>
+            </button>
+                    
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content" id="emailmodal">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Email</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="https://formspree.io/mollyhopper95@gmail.com" method="POST">
+                                <div class="form-group">
+                                    <label for="senderName">Your name</label>
+                                    <input type="text" class="form-control" placeholder="John Smith" name="senderName">
+                                </div>
+                                <div class="form-group">
+                                    <label for="SenderEmail">Your email address</label>
+                                    <input type="email" class="form-control" placeholder="Name@example.com" name="senderEmail">
+                                </div>
+                                <div class="form-group">
+                                    <label for="senderMessage">Message</label>
+                                    <textarea class="form-control" rows="5" placeholder="Message goes here" name="senderMessage"></textarea>
+                                </div>
+                                <div class="form-group modal-footer">
+                                    <button type="button" class="btn btn-secondary closebtn" data-dismiss="modal">Close</button>
+                                    <button type="submit" class="btn btn-primary sendbtn" name="sendButton" value="Send">Send email</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <h4>Or find me on other sites:</h4>
+            <a href="https://github.com/goblinbat" target="blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/molly-hopper-993b13173/" target="blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="col-4" id="contact-right-col"></div>
+    </section>
+    <br><br>
+
+    <section class="footer">
+        <br>
+        <p>&copy; Molly Hopper 2019<br>
+        Portfolio</p>
+        <br>
+    </section>
+</body>
+
+</html>

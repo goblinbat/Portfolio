@@ -1,0 +1,21 @@
+Modal works now, so now I just have the non-modal form, in case I decide to switch from using a modal 
+to just having the form on the page.
+
+
+    <form action="https://formspree.io/mollyhopper95@gmail.com" method="POST" class="email_me">
+        <div class="form-group">
+            <label for="senderName">Your name</label>
+            <input type="text" class="form-control" placeholder="" name="senderName">
+        </div>
+        <div class="form-group">
+            <label for="SenderEmail">Your email address</label>
+            <input type="email" class="form-control" placeholder="name@example.com" name="senderEmail">
+        </div>
+        <div class="form-group">
+            <label for="senderMessage">Message</label>
+            <textarea class="form-control" rows="5" placeholder="" name="senderMessage"></textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary sendbtn" name="sendButton">Send email</button>
+        </div>
+    </form>
