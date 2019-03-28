@@ -83,7 +83,7 @@ h3, h2, h1 {
 }
 
 #profilePicture {
-    background-image: url(images/littleme.png);
+    background-image: url(images/me.jpg);
     height: 300px !important;
     width: 300px !important;
     border-radius: 300px;
