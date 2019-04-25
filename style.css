@@ -47,6 +47,14 @@ h3, h2, h1 {
     text-align: center;
 }
 
+a {
+    color: var(--accent-dark-color);
+}
+
+a:hover {
+    color: var(--accent-dark-color);
+}
+
 #brand {
     float: left !important;
     font-size: 35px;
@@ -84,6 +92,7 @@ h3, h2, h1 {
 
 #profilePicture {
     background-image: url(images/me.jpg);
+    background-size: 290px;
     height: 300px !important;
     width: 300px !important;
     border-radius: 300px;
@@ -192,6 +201,11 @@ h3, h2, h1 {
 
 #Recipes {
     background: url('./images/recipes_home_shot.png');
+    background-size: 250px 200px;
+}
+
+#Pokemon {
+    background: url('./images/PokeTeamBuilder_home.png');
     background-size: 250px 200px;
 }
 
